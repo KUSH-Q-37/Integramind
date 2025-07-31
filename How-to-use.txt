@@ -1,0 +1,33 @@
+Note: To avoid any installation error we have also sent the virtual environment file together so your installation gets easy.
+
+Please delete previous project delivered by us and use this one.
+
+Setup Backend:
+Open terminal and type "./.venv/bin/activate"
+cd api
+python seed.py
+python app.py
+
+Steps to setup and run the frontend
+    1. Open a terminal and type "cd web"
+    2. Type "npm install"
+    3. Then type "npm run dev"
+
+Now your website will started running locally
+
+Steps to run the test (Run when needed)
+        1. Open a terminal and type "cd web"
+        2. Type npm run test
+        3. You will see the test results in terminal
+
+Files to focus:
+    1. web folder
+    	1. pages/task-management
+	2. Components/task-management
+    2. api folder
+    	1. app.py (all weeks tasks api end point)
+
+
+
+
+
